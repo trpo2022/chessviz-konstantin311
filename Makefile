@@ -1,7 +1,7 @@
-all: hello
+all: chess
 
-hello: hello.c
-	gcc -Wall -Werror -o hello hello.c
+chess: chess.c
+	gcc -Wall -Werror -o chess chess.c
 
-run: hello
-	./hello
+run: chess
+	./chess
