@@ -1,1 +1,5 @@
-chess
+*.o
+*.a
+*.d
+bin/chess
+main
